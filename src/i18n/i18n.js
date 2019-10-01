@@ -14,7 +14,7 @@ locale.set(
     getClientLocale({
         navigator: true,
         hash: 'lang',
-        fallback: 'en'
+        fallback: 'es'
     })
 );
 
