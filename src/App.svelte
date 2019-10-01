@@ -1,11 +1,11 @@
 <script>
+	import { locale, _ } from 'svelte-i18n';
+
 	export let name;
 </script>
 
 <style>
-	h1 {
-		color: purple;
-	}
+
 </style>
 
-<h1 class="bg-black">Hello {name}!</h1>
+<button class="bg-blue-500 hover:bg-blue-700">{ $_('test') }</button>
