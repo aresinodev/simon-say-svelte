@@ -3,10 +3,12 @@ import { locale, dictionary, getClientLocale } from 'svelte-i18n';
 // Defining a locale dictionary
 dictionary.set({
     es: {
-        test: 'Traducción de test'
+        header: {
+            title: 'Simón dice...'
+        }
     },
     en: {
-        test: 'Test translate'
+        title: 'Simon say...'
     }
 });
 

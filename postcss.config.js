@@ -4,7 +4,7 @@ const purgecss = require('@fullhuman/postcss-purgecss');
 module.exports = {
     plugins: [
         require('postcss-import')(),
-        require('tailwindcss'),
+        require('tailwindcss')('./tailwind.config.js'),
         require('autoprefixer'),
         // Only purge css on production
         production &&

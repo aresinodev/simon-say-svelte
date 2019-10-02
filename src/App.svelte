@@ -1,11 +1,9 @@
 <script>
-	import { locale, _ } from 'svelte-i18n';
+	import Header from './components/Header.svelte';
 
 	export let name;
 </script>
 
-<style>
+<style type="text/css"></style>
 
-</style>
-
-<button class="bg-blue-500 hover:bg-blue-700">{ $_('test') }</button>
+<Header />

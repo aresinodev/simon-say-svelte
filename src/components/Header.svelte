@@ -1,14 +1,25 @@
-<script></script>
+<script>
+    import { _ } from 'svelte-i18n';
+</script>
 
-<style lang="scss">
-    .header-content {
-        &-logo {}
+<style>
+    .header-content-logo {}
 
-        &-title {}
+    .header-content-title {
+        padding-left: 1em;
     }
 </style>
 
-<div class="header-content flex flex-row justify-between items-center w-full">
-    <div class="header-content-logo"></div>
-    <div class="header-content-title"></div>
+<div class="flex flex-row justify-center items-center w-full p-2">
+    <div class="header-content-logo">
+        <img src="assets/images/simon-say-icon.png" alt="simon-say-icon"
+             class="w-20 sm:w-20 md:w-40 xl:w-80" />
+    </div>
+    <div class="header-content-title flex flex-row justify-center w-full"
+         style="padding-left: 1em;">
+        <h1 class="text-sm sm:text-sm md:text-3xl xl:text-6xl"
+            style="font-family: 'Press Start 2P', sans-serif, Arial;">
+            { $_('header.title') }
+        </h1>
+    </div>
 </div>
