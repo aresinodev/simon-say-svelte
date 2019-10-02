@@ -5,10 +5,16 @@ dictionary.set({
     es: {
         header: {
             title: 'Simón dice...'
+        },
+        footer: {
+            design: 'Diseñado por'
         }
     },
     en: {
-        title: 'Simon say...'
+        title: 'Simon say...',
+        footer: {
+            design: 'Design by'
+        }
     }
 });
 

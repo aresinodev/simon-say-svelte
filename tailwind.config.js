@@ -1,5 +1,8 @@
 module.exports = {
     theme: {
-        fontFamily: {}
+        fontFamily: {},
+        fontsize: {
+            '2xs': '.65rem'
+        }
     }
 };
